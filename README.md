@@ -5,7 +5,7 @@ An android app that show us nike products and user can buy them or add to shoppi
 <table>
 	<tr><td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/home.jpg"></td>
 	<td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/product_detail.jpg"></td>
-	<td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/login"></td></tr>
+	<td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/login.jpg"></td></tr>
 	<tr><td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/addCart.jpg"></td>
 	<td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/comments.jpg"></td>
 	<td><img src="https://github.com/mojtaba28/NikeStoreApp/blob/main/screenshots/login2.jpg"></td></tr>
