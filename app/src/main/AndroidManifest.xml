@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nikestore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NikeStore"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".view.Activity.FavoriteActivity"></activity>
+        <activity android:name=".view.Activity.PaymentResultActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="expertdevelopers.ir"
+                    android:pathPattern="/appCheckout"
+                    android:scheme="nike" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Activity.CheckoutActivity" />
+        <activity
+            android:name=".view.Activity.AuthActivity"
+            android:theme="@style/Theme.Nike.AuthTheme" />
+        <activity android:name=".view.Activity.ProductListActivity" />
+        <activity android:name=".view.Activity.CommentActivity" />
+        <activity android:name=".view.Activity.ProductDetailActivity" />
+        <activity android:name=".view.Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

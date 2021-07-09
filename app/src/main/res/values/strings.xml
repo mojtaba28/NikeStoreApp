@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">NikeStore</string>
+    <string name="home">خانه</string>
+    <string name="cart">سبد خرید</string>
+    <string name="profile">اطلاعات کاربری</string>
+    <string name="search">جستجو</string>
+    <string name="viewAll">مشاهده همه</string>
+    <string name="latest">جدیدترین ها</string>
+    <string name="popular">محبوبترین ها</string>
+    <string name="comments">نظرات</string>
+    <string name="insertComment">افزودن نظر</string>
+    <string name="viewAllComments">مشاهده تمام نظرات</string>
+    <string name="product_list">لیست محصولات</string>
+    <string name="sort">دسته بندی</string>
+    <string name="sortLatest">جدیدترین</string>
+    <string name="sortPopular">محبوب ترین</string>
+    <string name="sortPriceHighToLow">گرانترین</string>
+    <string name="sortPriceLowToHigh">ارزان ترین</string>
+    <string name="addToCart">افزودن به سبد خرید</string>
+    <string name="success_addToCart">با موفقیت به سبد خرید اضافه شد</string>
+    <string name="unknown_error">خطای ناشناخته</string>
+
+    <string-array name="sortTitlesArray">
+        <item>@string/sortLatest</item>
+        <item>@string/sortPopular</item>
+        <item>@string/sortPriceHighToLow</item>
+        <item>@string/sortPriceLowToHigh</item>
+    </string-array>
+
+    <string name="enterToYourAccount">ورود به حساب کاربری</string>
+    <string name="loginEnter">ورود</string>
+    <string name="email">ایمیل</string>
+    <string name="password">رمز عبور</string>
+    <string name="haveNotAnAccount">حساب کاربری ندارید؟</string>
+    <string name="signUp">ثبت نام</string>
+    <string name="enterYourPasswordAndEmail">ایمیل و رمز عبور خود را وارد کنید</string>
+    <string name="yourAccountSuccessfullyCreated">حساب کاربری شما با موفقیت ساخته شد!</string>
+
+
+    <string name="signUpScreenTitle">ایجاد حساب کاربری</string>
+    <string name="haveYouSignUpAlready">قبلا ثبت نام کردید؟</string>
+    <string name="pay">پرداخت</string>
+    <string name="count">تعداد</string>
+    <string name="removeFromCart">حذف از سبد خرید</string>
+    <string name="purchaseDetail">جزییات خرید</string>
+    <string name="totalPrice">مبلغ کل خرید</string>
+    <string name="shippingCost">هزینه ارسال</string>
+    <string name="payablePrice">مبلغ قابل پرداخت</string>
+
+    <string name="cartEmptyStateLoginRequired">وارد حساب کاربری خود شوید</string>
+    <string name="cartEmptyStateCallToAction">ورود به حساب کاربری</string>
+    <string name="yourCartListIsEmpty">سبد خرید شما خالی میباشد!</string>
+
+    <string name="checkout">پرداخت</string>
+    <string name="paymentResult">نتیجه پرداخت</string>
+    <string name="firstName">نام</string>
+    <string name="lastName">نام خانوادگی</string>
+    <string name="postalCode">کد پستی</string>
+    <string name="phoneNumber">شماره موبایل</string>
+    <string name="address">آدرس</string>
+    <string name="checkoutToolbarTitle">رسید پرداخت</string>
+    <string name="returnHome">بازگشت به صفحه اصلی</string>
+    <string name="orderHistory">سوابق سفارش</string>
+    <string name="purchaseStatus">وضعیت سفارش</string>
+    <string name="price">مبلغ</string>
+
+    <string name="favorites">لیست علاقه مندی ها</string>
+    <string name="signIn">ورود به حساب کاربری</string>
+    <string name="signOut">خروج از حساب کاربری</string>
+    <string name="guest_user">کاربر مهمان</string>
+    <string name="favorites_empty_state_message">هنوز محصولی به لیست علاقه مندی اضافه نکردی</string>
+    <string name="favorites_help_message">برای حذف محصول انگشت خود را روی آن نگه دارید</string>
+    <string name="onlinePayment">پرداخت اینترنتی</string>
+    <string name="cashOnDelivery">پرداخت در محل</string>
+
+    <string name="yourPurchaseWasSuccessfully">خرید با موفقیت انجام شد</string>
+    <string name="unsuccessfulPurchase">خرید ناموفق</string>
+
+
+    <string name="yourFavoriteListIsEmpty">لیست علاقه مندی شما خالی میباشد</string>
+
+</resources>

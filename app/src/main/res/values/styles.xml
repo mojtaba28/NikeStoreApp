@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_navigation_item_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_item_color</item>
+        <item name="itemRippleColor">@color/bottom_navigation_ripple_color</item>
+        <item name="itemTextAppearanceActive">@style/ActiveItemBottomNavigationTextAppearance</item>
+    </style>
+
+    <style name="ActiveItemBottomNavigationTextAppearance" parent="TextAppearance.MyTheme.Caption">
+        <item name="fontFamily">@font/iranyekan</item>
+        <item name="android:fontFamily">@font/iranyekan</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyActionBarWidgetTheme" parent="@android:style/Theme.Holo">
+
+        <item name="android:textColorHint">@color/darkGray</item>
+        <item name="android:textColor">?colorSecondary</item>
+
+    </style>
+
+    <style name="Theme.Nike.AuthTheme.Button" parent="Theme.Nike.AuthTheme">
+        <item name="backgroundTint">?colorOnBackground</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">@font/yekan</item>
+    </style>
+
+    <style name="CheckoutTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="CheckoutTextInputEditTextStyle" parent="Theme.NikeStore">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ProfileLinks">
+        <item name="android:minHeight">46dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:textAppearance">?textAppearanceBody1</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

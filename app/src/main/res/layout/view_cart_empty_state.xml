@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/emptyStateRootView"
+    android:background="?android:colorBackground"
+    android:translationZ="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/emptyCartAnim"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            app:lottie_rawRes="@raw/empty_cart_anim"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loginAnim"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            app:lottie_rawRes="@raw/login_anim"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/emptyStateMessageTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/cartEmptyStateLoginRequired"
+            android:textAppearance="?textAppearanceHeadline6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/emptyStateCtaBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/cartEmptyStateCallToAction" />
+    </LinearLayout>
+</FrameLayout>
