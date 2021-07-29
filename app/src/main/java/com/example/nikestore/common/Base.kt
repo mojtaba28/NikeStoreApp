@@ -72,7 +72,6 @@ abstract class NikeActivity :AppCompatActivity(),NikeView{
     }
 
 
-
 }
 
 interface NikeView {

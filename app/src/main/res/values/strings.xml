@@ -61,6 +61,7 @@
     <string name="checkoutToolbarTitle">رسید پرداخت</string>
     <string name="returnHome">بازگشت به صفحه اصلی</string>
     <string name="orderHistory">سوابق سفارش</string>
+    <string name="ordersHistory">سوابق سفارشات</string>
     <string name="purchaseStatus">وضعیت سفارش</string>
     <string name="price">مبلغ</string>
 
@@ -78,5 +79,8 @@
 
 
     <string name="yourFavoriteListIsEmpty">لیست علاقه مندی شما خالی میباشد</string>
+    <string name="orderId">شناسه سفارش</string>
+    <string name="orderPayable">هزینه سفارش</string>
+
 
 </resources>

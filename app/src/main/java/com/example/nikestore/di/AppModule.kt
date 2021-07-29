@@ -62,4 +62,5 @@ import org.koin.dsl.module
         viewModel { (orderId:Int)-> PaymentResultViewModel(orderId,get()) }
         viewModel { ProfileViewModel(get()) }
         viewModel { FavoriteViewModel(get()) }
+        viewModel { OrderHistoryViewModel(get()) }
     }

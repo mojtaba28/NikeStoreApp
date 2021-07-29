@@ -9,10 +9,10 @@ import com.example.nikestore.R
 import com.example.nikestore.common.NikeFragment
 import com.example.nikestore.view.Activity.AuthActivity
 import com.example.nikestore.view.Activity.FavoriteActivity
+import com.example.nikestore.view.Activity.OrderHistoryActivity
 import com.example.nikestore.viewmodel.ProfileViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_profile.*
-import kotlinx.coroutines.channels.consumesAll
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class ProfileFragment:NikeFragment() {
@@ -32,6 +32,9 @@ class ProfileFragment:NikeFragment() {
 
         favoriteProductsBtn.setOnClickListener {
             startActivity(Intent(requireContext(),FavoriteActivity::class.java))
+        }
+        orderHistoryBtn.setOnClickListener {
+            startActivity(Intent(requireContext(), OrderHistoryActivity::class.java))
         }
     }
 

@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NikeStore"
         android:usesCleartextTraffic="true">
-        <activity android:name=".view.Activity.FavoriteActivity"></activity>
+        <activity android:name=".view.Activity.OrderHistoryActivity"></activity>
+        <activity android:name=".view.Activity.FavoriteActivity" />
         <activity android:name=".view.Activity.PaymentResultActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

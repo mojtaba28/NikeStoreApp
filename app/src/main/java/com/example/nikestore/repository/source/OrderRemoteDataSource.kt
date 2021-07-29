@@ -3,6 +3,7 @@ package com.example.nikestore.repository.source
 import com.example.nikestore.services.http.ApiService
 import com.google.gson.JsonObject
 import com.sevenlearn.nikestore.data.Checkout
+import com.sevenlearn.nikestore.data.OrderHistoryItem
 import com.sevenlearn.nikestore.data.PaymentResult
 import io.reactivex.rxjava3.core.Single
 
@@ -28,4 +29,10 @@ class OrderRemoteDataSource(val apiService: ApiService):OrderDataSource {
     override fun paymentResult(orderId: Int): Single<PaymentResult> {
         return apiService.paymentResult(orderId)
     }
+
+    override fun list(): Single<List<OrderHistoryItem>> {
+       return apiService.orders()
+    }
+
+
 }
