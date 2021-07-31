@@ -16,9 +16,10 @@
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/emptyCartAnim"
-            android:layout_width="280dp"
-            android:layout_height="280dp"
-            app:lottie_rawRes="@raw/empty_cart_anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            app:lottie_rawRes="@raw/empty_fav_list"
             app:lottie_loop="true"
             app:lottie_autoPlay="true"
             />

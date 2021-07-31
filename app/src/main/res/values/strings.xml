@@ -37,9 +37,9 @@
     <string name="yourAccountSuccessfullyCreated">حساب کاربری شما با موفقیت ساخته شد!</string>
 
 
-    <string name="signUpScreenTitle">ایجاد حساب کاربری</string>
+    <string name="createAccount">ایجاد حساب کاربری</string>
     <string name="haveYouSignUpAlready">قبلا ثبت نام کردید؟</string>
-    <string name="pay">پرداخت</string>
+    <string name="payment">پرداخت</string>
     <string name="count">تعداد</string>
     <string name="removeFromCart">حذف از سبد خرید</string>
     <string name="purchaseDetail">جزییات خرید</string>
@@ -58,11 +58,11 @@
     <string name="postalCode">کد پستی</string>
     <string name="phoneNumber">شماره موبایل</string>
     <string name="address">آدرس</string>
-    <string name="checkoutToolbarTitle">رسید پرداخت</string>
+    <string name="paymentReceipt">رسید پرداخت</string>
     <string name="returnHome">بازگشت به صفحه اصلی</string>
     <string name="orderHistory">سوابق سفارش</string>
     <string name="ordersHistory">سوابق سفارشات</string>
-    <string name="purchaseStatus">وضعیت سفارش</string>
+    <string name="orderStatus">وضعیت سفارش</string>
     <string name="price">مبلغ</string>
 
     <string name="favorites">لیست علاقه مندی ها</string>

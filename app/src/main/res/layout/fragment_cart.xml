@@ -43,5 +43,5 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/yekan"
         android:gravity="center"
-        android:text="@string/pay" />
+        android:text="@string/payment" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

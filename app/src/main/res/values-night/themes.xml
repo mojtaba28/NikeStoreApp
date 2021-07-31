@@ -5,10 +5,13 @@
         <item name="colorPrimary">@color/blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondary">@color/blackLight</item>
         <item name="colorOnSecondary">@color/white</item>
-        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSurface">@color/blackLight</item>
+        <item name="colorOnSurface">@color/darkGray</item>
         <item name="colorIconHint">@color/darkGray</item>
+        <item name="android:colorBackground">@color/black</item>
+
 
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
@@ -35,18 +38,18 @@
         <item name="bottomNavigationStyle">@style/MyBottomNavigationView</item>
         <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Surface</item>
 
-        <item name="dividerColor">@color/gray</item>
+        <item name="dividerColor">@color/black</item>
         <item name="android:textColorSecondary">@color/darkGray</item>
         <item name="android:lineSpacingExtra">6dp</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 
     <style name="Theme.Nike.AuthTheme" parent="Theme.NikeStore">
-        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/black</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
-        <item name="android:windowBackground">@color/white</item>
-        <item name="colorOnBackground">@color/black</item>
-        <item name="colorOnSurface">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
         <item name="materialButtonStyle">@style/Theme.Nike.AuthTheme.Button</item>
     </style>
 </resources>

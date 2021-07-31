@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.Activity.ProductDetailActivity"
-    android:layoutDirection="rtl">
+    >
 
     <com.example.nikestore.common.scroll.ObservableScrollView
         android:id="@+id/observableScrollView"

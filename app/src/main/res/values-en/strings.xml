@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">NikeStore</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="viewAll">View All</string>
+    <string name="latest">Latest</string>
+    <string name="popular">Popular</string>
+    <string name="comments">Comments</string>
+    <string name="insertComment">Add Comment</string>
+    <string name="viewAllComments">View All Comments</string>
+    <string name="product_list">Product List</string>
+    <string name="sort">Sort</string>
+    <string name="sortLatest">Latest</string>
+    <string name="sortPopular">Popular</string>
+    <string name="sortPriceHighToLow">High Price</string>
+    <string name="sortPriceLowToHigh">Low Price</string>
+    <string name="addToCart">Add to Cart</string>
+    <string name="success_addToCart">Added to cart successfully</string>
+    <string name="unknown_error">unknown error</string>
+
+    <string-array name="sortTitlesArray">
+        <item>@string/sortLatest</item>
+        <item>@string/sortPopular</item>
+        <item>@string/sortPriceHighToLow</item>
+        <item>@string/sortPriceLowToHigh</item>
+    </string-array>
+
+    <string name="enterToYourAccount">Enter to your account</string>
+    <string name="loginEnter">Enter</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="haveNotAnAccount">Do not you have an account?</string>
+    <string name="signUp">Sign Up</string>
+    <string name="enterYourPasswordAndEmail">Enter your email and password</string>
+    <string name="yourAccountSuccessfullyCreated">Your account created successfully</string>
+
+
+    <string name="createAccount">Create an account </string>
+    <string name="haveYouSignUpAlready">Did you sign up already? </string>
+    <string name="payment">Payment</string>
+    <string name="count">Count</string>
+    <string name="removeFromCart">Remove from cart</string>
+    <string name="purchaseDetail">Purchase Detail</string>
+    <string name="totalPrice">Total Price</string>
+    <string name="shippingCost">Shipping Cost</string>
+    <string name="payablePrice">Payable Price</string>
+
+    <string name="cartEmptyStateLoginRequired">Enter to your account</string>
+    <string name="cartEmptyStateCallToAction">Enter to your account</string>
+    <string name="yourCartListIsEmpty">Your cart list is empty</string>
+
+    <string name="checkout">Checkout</string>
+    <string name="paymentResult">Payment Result</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="paymentReceipt">Payment Receipt</string>
+    <string name="returnHome">Return Home</string>
+    <string name="orderHistory">Order History</string>
+    <string name="ordersHistory">Orders History</string>
+    <string name="orderStatus">Order Status</string>
+    <string name="price">Price</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="signIn">Sign In</string>
+    <string name="signOut">Sign Out</string>
+    <string name="guest_user">Guest User</string>
+    <string name="favorites_empty_state_message">You did not insert any product to your favorite list</string>
+    <string name="favorites_help_message">Keep your finger for removing product</string>
+    <string name="onlinePayment">Online Payment</string>
+    <string name="cashOnDelivery">Cash On Delivery</string>
+
+    <string name="yourPurchaseWasSuccessfully">Your purchase was successfully</string>
+    <string name="unsuccessfulPurchase">Unsuccessfully Purchase</string>
+
+
+    <string name="yourFavoriteListIsEmpty">Your favorite list is empty</string>
+    <string name="orderId">Order Id</string>
+    <string name="orderPayable">Order Payable</string>
+
+
+</resources>

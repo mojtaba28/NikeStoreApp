@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layoutDirection="rtl">
+    android:layoutDirection="ltr"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,7 +50,6 @@
                 style="@style/ProfileLinks"
                 android:text="@string/orderHistory"
                 app:drawableStartCompat="@drawable/ic_order_history" />
-
             <TextView
                 android:id="@+id/authBtn"
                 android:layout_width="match_parent"
